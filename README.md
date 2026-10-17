@@ -14,3 +14,5 @@ Open [http://127.0.0.1:43123](http://127.0.0.1:43123).
 ## Production
 
 The live site is [https://hello-world-react-flame-iota.vercel.app](https://hello-world-react-flame-iota.vercel.app).
+
+Source: [github.com/kenmau/hello-world-react](https://github.com/kenmau/hello-world-react). Pushes to `main` deploy to Vercel.

@@ -24,13 +24,22 @@ export default function Home() {
             Press the button to change the greeting.
           </p>
         </div>
-        <div>
+        <div className="flex flex-col gap-3 sm:flex-row">
           <Button
             size="lg"
             className="h-11 px-5"
             onClick={() => setIndex((current) => (current + 1) % greetings.length)}
           >
             Say hello again
+          </Button>
+          <Button
+            size="lg"
+            variant="outline"
+            className="h-11 bg-transparent px-5"
+            nativeButton={false}
+            render={<a href="https://github.com/kenmau/hello-world-react" />}
+          >
+            View the source
           </Button>
         </div>
       </div>
