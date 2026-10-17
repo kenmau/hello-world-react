@@ -13,4 +13,4 @@ Open [http://127.0.0.1:43123](http://127.0.0.1:43123).
 
 ## Production
 
-The app is deployed on Vercel from the GitHub repository [kenmau/hello-world-react](https://github.com/kenmau/hello-world-react). Pushes to `main` publish a new production deployment.
+The app is deployed on Vercel. A production deploy builds the Next.js app from this repository.

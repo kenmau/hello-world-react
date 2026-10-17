@@ -20,28 +20,17 @@ export default function Home() {
             {greeting}
           </h1>
           <p className="max-w-xl text-lg leading-8 text-[#5c564e]">
-            A small React app, built with Next.js and published from GitHub.
+            A small React app, built with Next.js and published on Vercel.
             Press the button to change the greeting.
           </p>
         </div>
-        <div className="flex flex-col gap-3 sm:flex-row">
+        <div>
           <Button
             size="lg"
             className="h-11 px-5"
             onClick={() => setIndex((current) => (current + 1) % greetings.length)}
           >
             Say hello again
-          </Button>
-          <Button
-            size="lg"
-            variant="outline"
-            className="h-11 bg-transparent px-5"
-            nativeButton={false}
-            render={
-              <a href="https://github.com/kenmau/hello-world-react" />
-            }
-          >
-            View the source
           </Button>
         </div>
       </div>
