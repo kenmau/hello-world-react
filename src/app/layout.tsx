@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hello, world",
+  title: "Good Bye World",
   description: "A small React app published on Vercel.",
 };
 

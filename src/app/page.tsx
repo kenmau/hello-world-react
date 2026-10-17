@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 
-const greetings = ["Hello, world.", "Hello, Ken.", "Good to see you."];
+const greetings = ["Good Bye World", "Hello, Ken.", "Good to see you."];
 
 export default function Home() {
   const [index, setIndex] = useState(0);
