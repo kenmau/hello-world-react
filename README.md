@@ -13,4 +13,4 @@ Open [http://127.0.0.1:43123](http://127.0.0.1:43123).
 
 ## Production
 
-The app is deployed on Vercel. A production deploy builds the Next.js app from this repository.
+The live site is [https://hello-world-react-flame-iota.vercel.app](https://hello-world-react-flame-iota.vercel.app).
